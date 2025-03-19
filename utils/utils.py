@@ -428,16 +428,6 @@ def get_custom_exp_code(args):
       param_code += 'ICFNet'
     elif args.model_type == 'hsicfnet':
       param_code += 'HSICFNet'
-    elif args.model_type == 'hsicfnet_wotext':
-      param_code += 'HSICFNet_wotext'
-    elif args.model_type == 'hsicfnet_demo':
-      param_code += 'HSICFNet_demo'
-    elif args.model_type == 'hsicfnet_treat':
-      param_code += 'HSICFNet_treat'
-    elif args.model_type == 'hsicfnet_wotensor':
-      param_code += 'HSICFNet_wotensor'
-    elif args.model_type == 'hgsicfnet':
-      param_code += 'HGSICFNet'
     else:
       raise NotImplementedError
 

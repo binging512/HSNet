@@ -55,8 +55,7 @@ parser.add_argument('--status_path',              type=str,
 
 ### Model Parameters.
 parser.add_argument('--model_type',      type=str, choices=['snn', 'amil', 'mcat', 'motcat','motcat_text','motcat_text_only',
-                                                            'icfnet','hsicfnet', 'hgsicfnet',
-                                                            'hsicfnet_wotext','hsicfnet_demo','hsicfnet_treat','hsicfnet_wotensor'], 
+                                                            'icfnet','hsicfnet'], 
                     default='motcat', help='Type of model (Default: motcat)')
 parser.add_argument('--mode',            type=str, choices=['omic', 'path', 'pathomic', 'cluster', 'coattn', 'coattn_text'],
                     default='coattn', help='Specifies which modalities to use / collate function in dataloader.')
